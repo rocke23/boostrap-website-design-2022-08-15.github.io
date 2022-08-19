@@ -153,3 +153,83 @@
     margin-bottom: -30px;
     margin-top: -30px;
 }
+
+/* ------------subscribe---------------- */
+.subscribe{
+    padding: 50px 20px;
+    background-color: #013f7e;
+    position: relative;
+    box-shadow: 0 0 20px 7px rgba(0,0,0,0.2);
+    margin-bottom: -160px;
+}
+.subscribe h3, .subscribe p {
+    color: #fff;
+}
+.subscribe .input-group{
+    border-radius: 30px;
+    background: #fff;
+    max-width: 500px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.subscribe .form-control{
+    border: none;
+    background: transparent;
+}
+.subscribe .form-control:focus{
+    box-shadow: none;
+    background: transparent;
+}
+.subscribe  .input-group-append{
+    background-image: linear-gradient(to right, #1c03b5, #5c8bef);
+    border-radius: 30px!important;
+}
+.subscribe .input-group-text{
+    background:transparent;
+    border:none;
+    color: #fff;
+}
+.subscribe .btn:focus{
+    box-shadow: none!important;
+}
+
+/* -----------------footer--------------------- */
+#footer{
+    margin-top:80px;
+    padding:100px;
+    background-color: #efefef;
+    color:#013f7e;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+#footer h1{
+    font-size:15px;
+    text-align: left;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+#footer p{
+    font-size:12px;
+    text-align: left;
+}
+#footer .city{
+    margin-left: 37px;
+}
+#footer .row .bi{
+    padding-right: 20px!important;
+    font-size: 15px;
+}
+#footer hr{
+    margin-top: 10px;
+}
+#footer .bi-c-circle-fill{
+    color: skyblue !important;
+    font-size: 17px;
+}
+#footer .copyright{
+    margin-bottom: -80px;
+    text-align: center;
+}
